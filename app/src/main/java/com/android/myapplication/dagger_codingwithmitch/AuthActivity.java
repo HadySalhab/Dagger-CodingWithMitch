@@ -9,6 +9,7 @@ import javax.inject.Inject;
 
 import dagger.android.support.DaggerAppCompatActivity;
 
+//We should DaggerAppCompatActivity
 public class AuthActivity extends DaggerAppCompatActivity {
 
     private static final String TAG = "AuthActivity";
