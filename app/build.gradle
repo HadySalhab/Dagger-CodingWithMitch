@@ -35,4 +35,14 @@ dependencies {
     api 'com.google.dagger:dagger-android:2.25.3'
     api 'com.google.dagger:dagger-android-support:2.25.3' // if you use the support libraries
     annotationProcessor 'com.google.dagger:dagger-android-processor:2.22'
+
+    // AndroidX support design (for nav drawer)
+//    def material_version = "1.0.0-rc02"
+    def material_version = "1.0.0"
+    implementation "com.google.android.material:material:$material_version"
+
+    // Glide
+    def glideVersion = "4.9.0"
+    implementation "com.github.bumptech.glide:glide:$glideVersion"
+    annotationProcessor "com.github.bumptech.glide:compiler:$glideVersion"
 }
